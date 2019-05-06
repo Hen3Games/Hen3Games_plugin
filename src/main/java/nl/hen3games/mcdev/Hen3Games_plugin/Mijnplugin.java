@@ -1,5 +1,7 @@
 package nl.hen3games.mcdev.Hen3Games_plugin;
 
+import nl.hen3games.mcdev.Hen3Games_plugin.Commands.fly;
+import nl.hen3games.mcdev.Hen3Games_plugin.Commands.flySpeed;
 import nl.hen3games.mcdev.Hen3Games_plugin.Commands.gamemode;
 import nl.hen3games.mcdev.Hen3Games_plugin.Commands.mod;
 import nl.hen3games.mcdev.Hen3Games_plugin.Files.functions;
@@ -24,6 +26,8 @@ public final class Mijnplugin extends JavaPlugin {
         getCommand("mod").setExecutor(new mod(this));
         getCommand("gm").setExecutor(new gamemode(this));
         getCommand("gamemode").setExecutor(new gamemode(this));
+        getCommand("fly").setExecutor(new fly(this));
+        getCommand("flyspeed").setExecutor(new flySpeed(this));
 
         for (Player player : Bukkit.getOnlinePlayers()){
             if (!functions.playerAlreadyCreated(player)){

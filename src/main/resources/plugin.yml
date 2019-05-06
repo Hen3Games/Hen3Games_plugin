@@ -12,3 +12,9 @@ commands:
   gm:
     description: Sets a Gamemode
     usage: /<command>
+  gamemode:
+    description: Sets a Gamemode
+    usage: /<command>
+  fly:
+    description: sets fly on or off
+    usage: /<command>
