@@ -1,0 +1,11 @@
+name: Mijnplugin
+version: ${project.version}
+main: nl.hen3games.mcdev.Hen3Games_plugin.Mijnplugin
+api-version: 1.13
+authors: [Hen3Games]
+website: www.hen3games.nl
+
+commands:
+  mod:
+    description: Mod command
+    usage: /<command>
