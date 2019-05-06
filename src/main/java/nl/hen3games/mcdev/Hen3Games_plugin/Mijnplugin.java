@@ -23,6 +23,7 @@ public final class Mijnplugin extends JavaPlugin {
 
         getCommand("mod").setExecutor(new mod(this));
         getCommand("gm").setExecutor(new gamemode(this));
+        getCommand("gamemode").setExecutor(new gamemode(this));
 
         for (Player player : Bukkit.getOnlinePlayers()){
             if (!functions.playerAlreadyCreated(player)){

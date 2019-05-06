@@ -9,3 +9,6 @@ commands:
   mod:
     description: Mod command
     usage: /<command>
+  gm:
+    description: Sets a Gamemode
+    usage: /<command>
