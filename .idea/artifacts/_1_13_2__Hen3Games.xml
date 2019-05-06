@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="[1.13.2] Hen3Games">
+    <output-path>$PROJECT_DIR$/../../Test server 1.13.2/plugins</output-path>
+    <root id="archive" name="[1.13.2] Hen3Games.jar">
+      <element id="module-output" name="Hen3Games_plugin" />
+    </root>
+  </artifact>
+</component>
